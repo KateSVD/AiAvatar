@@ -29,9 +29,9 @@ python inference.py --driven_audio C:\AI\AiAvatar\input\Thank.wav --source_image
 - Wait for gfpgan download and video generation, folder AiAvatar/results will contain video.
 
 ### Setup coqui/TTS for sound generation
-- Install tts
+- Install TTS
 ```
-python install tts
+pip install TTS
 ```
 
 Use generated file placed in the ./output directory as input for the SadTalker.
